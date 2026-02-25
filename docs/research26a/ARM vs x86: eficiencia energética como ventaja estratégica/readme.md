@@ -105,6 +105,47 @@ Esto significa que la ventaja de ARM **no es absoluta**, sino que depende del di
 
 ---
 
+## ⚙️ 7. Aplicaciones
+
+#### 1. **Cloud Computing y Hyperscale Data Centers**
+
+-   **ARM gana aquí**: su consumo energético es  *60% menos que x86 equivalentes.
+-   **Ejemplo de Aplicaciones**:
+    -   Servicios web, APIs, microservicios y contenedores (Kubernetes/Docker), Netflix ahorra millones al año migrando encoding a Graviton.
+    -   Inferencia de IA / ML a escala (RAG, recommendation systems), Google Axion da mejor eficiencia energética que x86 en MLPerf.
+    -   Serverless y cargas bursty, cold starts más rápidos y menor costo por operación.
+
+#### 2. **Edge Computing y "Data Center on Wheels" (vehículos autónomos / SDV)**
+
+-   **ARM gana aquí**: Bajo TDP (provoca menor calor + batería), aislamiento vía virtualización y eficiencia en inferencia AI local.
+-   **Ejemplo de Aplicaciones**:
+    -   Vehículos software-defined: consolidación de ECUs en un solo SoC ARM, lo que reduce el peso, consumo y complejidad.
+    -   Edge AI en retail, logística, puertos: inferencia en cámaras/sensores 24/7 con 30-50% menos energía que los x86 mini-servers.
+    -   Dispositivos edge industriales (IoT gateways) con batería o energía limitada.
+
+#### 3. **Laptops, Tablets y PCs Copilot+ / AI PCs**
+
+-   **ARM gana aquí**: 18-25+ horas de batería real (vs 8-13 horas típicas en x86), diseños silenciosos y NPUs eficientes para IA local.
+-   **Ejemplo de Aplicaciones**:
+    -   Profesionales móviles, lo que daria todo el día sin cargador, como los Snapdragon X Elite/Plus o futuros X2 dan 20-22 horas vs Intel/AMD.
+    -   Estudiantes y remote work: multi-día de uso (web, Teams, Office + IA on-device).
+    -   Entornos corporativos que buscan menos reemplazos de batería, y menor huella energética.
+
+#### 4. **Sostenibilidad y Cumplimiento Regulatorio / ESG**
+
+-   **Por qué es estratégico**: La AI la está disparando, pero gracias a ARM se reduce la huella de carbono drásticamente.
+-   **Aplicaciones concretas**:
+    -   Empresas con metas Net Zero: migrar a Graviton/Axion/Ampere para reportar 30-60% menos emisiones.
+    -   Regiones con costos eléctricos altos o restricciones energéticas.
+    -   Green AI: entrenar/inferir modelos con menor impacto ambiental.
+
+#### 5. **Otras aplicaciones donde la eficiencia energética es decisiva**
+
+-   **IoT y Embedded de alta gama**: Dispositivos con batería o solar, ARM es la mejor.
+-   **HPC y AI en entornos con límites de potencia** (ej. supercomputadoras edge o investigación con restricciones energéticas).
+-   **Telecom y 5G/6G edge**: vRAN y base stations con bajo consumo.
+---
+
 # 📌 Conclusión
 
 👉 **ARM ha sido tradicionalmente más eficiente energéticamente** gracias a su diseño simplificado RISC y técnicas avanzadas de gestión de energía.
